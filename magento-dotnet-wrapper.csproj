@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>magento_dotnet_wrapper</RootNamespace>
+  </PropertyGroup>
+
+<PropertyGroup>
+    <EnableDefaultContentItems>false</EnableDefaultContentItems>
+</PropertyGroup>
+
+<!-- 
+  <ItemGroup>
+    <Compile Include="Service References\MagentoClient\MagentoClient.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MagentoClient.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup> -->
+
+  <ItemGroup>
+    <Reference Include="System.ServiceModel" />
+  </ItemGroup>
+
+</Project>
